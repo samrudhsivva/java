@@ -1,0 +1,12 @@
+public class Main
+{
+    public static void main(String[] args)
+    {
+        //System.out.println(x);
+        //above line of code gives error bcz scope of x is not extended to there..
+        int x=69;
+        System.out.println(x);//this can get x as its scope exists here..and prints 69
+        
+        
+    }
+}
