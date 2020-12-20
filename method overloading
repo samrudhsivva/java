@@ -1,0 +1,16 @@
+public class Main{
+    static int m1(int a){
+        return a*a;
+    }
+    static String m1(String s){
+        System.out.println("method overloading");
+        return s;
+    }
+    public static void main(String args[])
+    {//method overloading
+        int p=m1(3);
+        String k=m1("sam");
+        System.out.println(p);
+        System.out.println(k);
+    }
+}
