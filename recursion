@@ -1,0 +1,25 @@
+  
+  public class Main
+{ 
+      static int nrecur(int n)
+       {
+           if(n==0)//base condition
+           {
+               return 0;
+           }
+           else{
+               return n+nrecur(n-1);//logic
+           }
+        }   
+    public static void main(String[] args)
+    {
+       //java recursion code to add n continuous numbers
+       int n=6;
+       //it should give 6+5+4+3+2+1+0=21
+      
+       
+        System.out.println(nrecur(6));
+        
+    }
+}
+//CODE CREDITS SAMRUDH_SIVVA 
