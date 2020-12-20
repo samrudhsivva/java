@@ -1,0 +1,27 @@
+//Understanding classes,objects,attributes and methods in java
+
+public class Main{
+    public static void main(String[] args){
+        A obj=new A();//this is object i.e; obj
+        System.out.println(obj.vehicle_type);//prints car i.e; attribute 
+        System.out.println(obj.start((int)6));//prints car is starting i.e; method 
+    }
+}
+//create a file with Main.java and store it with above code..
+public class A//this is CLASS
+{
+    int vehicle_typeno=1;//attribute
+    String vehicle_type="car";//attribute
+    public static int start(int a)//method
+    {
+        if(a>0){
+        System.out.println("car is starting");
+    }
+        else {
+        System.out.println("car cant start");    
+        }
+        return 0;
+    }
+    
+}
+//create A.java with above code 11-26..amd compile both...
