@@ -1,0 +1,22 @@
+//STATIC METHOD AND NON-STATIC METHOD
+public class Main
+{
+    public void m1(){
+        int x=10;
+        System.out.println("public method");
+    }
+    static void m2(){
+        int y=58;
+        System.out.println("static method");
+    }
+    public static void main(String[] args)
+    {
+        m2();
+        //m1(); gives error
+        //we can access public methods only through objects
+        //we can access static methods witout objects
+        Main obj =new Main();
+        obj.m1();
+        
+    }
+}
