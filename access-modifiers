@@ -1,0 +1,11 @@
+//modifiers
+public class Main{
+    int a=10;//default,can be accessed within its package
+    public int b=11;//can be accessed by any class
+    private int c=100;//only accessed in the class its declared
+    protected int d=9;//accessed with its package and sub-classes
+    public static void main(String[] args){
+        Main o =new Main();
+        System.out.println(o.a+o.b+o.c+o.d);
+    }
+}
