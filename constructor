@@ -1,0 +1,15 @@
+//constructor in java
+public class Main
+{int x;
+String s;
+    public Main(int y){
+        x=y;
+        s="sam";
+    }
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+	Main obj=new Main(55);
+	System.out.println((char)obj.x+" "+obj.s);
+	    
+	}
+}
