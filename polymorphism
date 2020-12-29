@@ -1,0 +1,27 @@
+//polymorphism
+class A{
+    String m1(){
+        return "hi";
+    
+}}
+class B extends A{
+    String m1(){
+        return "bow bow";
+    }}
+    class C extends A{
+    String m1(){
+        return "hmm hmm";
+    }
+}
+
+public class Main
+{
+	public static void main(String[] args) {
+		A o =new A();
+		B o1 =new B();
+		C o2 =new C();
+		System.out.println(o.m1());
+		System.out.println(o1.m1());
+		System.out.println(o2.m1());
+	}
+}
