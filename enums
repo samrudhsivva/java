@@ -1,0 +1,13 @@
+enum sam{   //enum declaration can be outside or inside of a class..
+    A,
+    B,
+    C,
+    D
+}
+class Main{
+    public static void main(String args[])
+{
+  sam var=sam.A;//creating enum variable
+  System.out.println(var);
+}}
+//enums can implement interface but cant extend classes
