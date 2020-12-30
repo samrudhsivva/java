@@ -1,0 +1,14 @@
+import java.util.*;
+
+class Main{
+    public static void main(String args[])
+    {
+        Scanner ob=new Scanner(System.in);
+        System.out.println("enter name\n enter rollno\n enter \"(1/0)\" ");
+        String s=ob.nextLine();
+        int n=ob.nextInt();
+        boolean b=ob.nextBoolean();
+        System.out.println(s+n+b);
+        
+    }
+}
