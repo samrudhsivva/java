@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+class Main{
+    public static void main(String[] args)
+    {
+        ArrayList<String> o=new ArrayList<String>();
+        System.out.println(o);
+        o.add("sam");
+        System.out.println(o);
+        o.add("sam");
+        o.add("aran");o.add("sup");o.add("sayu");o.add("srav");
+        System.out.println(o.size());
+        System.out.println(o.get(3));
+        o.set(2,"repl");
+        System.out.println(o.get(2));
+        o.remove(3);
+        System.out.println(o.size());
+        o.remove("repl");
+        System.out.println(o.size());
+        System.out.println(o.isEmpty());
+        o.clear();
+        System.out.println(o.isEmpty());
+    }
+}
