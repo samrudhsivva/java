@@ -1,0 +1,24 @@
+//CALL BY REFERENCE
+import java.lang.*;
+import java.io.*;
+class A{
+    int x,y;
+}
+class Main{
+    public static void main(String[] args){
+        A obj=new A();
+        obj.x=10;
+        obj.y=10;
+        System.out.println("main x and y are");
+        System.out.println(obj.x+" "+obj.y);
+        sam(obj);
+        System.out.println("main x and y are");
+        System.out.println(obj.x+" "+obj.y);
+        
+    }
+    public static void sam(A obj){
+        obj.x=200;
+        obj.y=100;
+        System.out.println("sam x and y are"+ obj.x+" "+obj.y);
+    }
+}
