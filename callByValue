@@ -1,0 +1,16 @@
+//call by value..
+class Main{
+    public static void main(String[] args)
+    {
+        int x=10,y=20;
+        System.out.println(String.valueOf(x)+String.valueOf(y));
+        m1(x,y);
+        System.out.println(String.valueOf(x)+String.valueOf(y));
+    }
+
+    public static void m1(int x,int y){
+        x=100;
+        y=200;
+        
+    }
+}
