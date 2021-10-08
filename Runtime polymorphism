@@ -1,0 +1,35 @@
+class A
+{A()
+{
+    System.out.println("AHOIII");
+}
+    public void p(){
+        System.out.println("AAAAA");
+    }
+}
+class B extends A
+{B()
+{
+    System.out.println("BHOIIIIIII");
+}
+    public void p()
+    {
+        System.out.println("BBBBBBBBB");
+    }
+    
+}
+public class Main
+{
+    public static void main (String[] args) {
+        A a=new A();
+        a.p();
+        System.out.println("----------");
+        A b=new B();
+        b.p();
+        System.out.println("----------");
+        B c=new B();
+        c.p();
+        System.out.println("----------");
+        
+    }
+}
