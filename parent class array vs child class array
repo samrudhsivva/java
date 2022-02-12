@@ -1,0 +1,26 @@
+ class A
+{
+    int a;
+    int b;
+}
+class B extends A
+{
+    String j;
+}
+public class Main
+{
+    public static void main (String[] args)
+    {
+        A[] a=new A[10];
+        B[] bk=new B[10];
+        B bo =new B();
+        bo.a=1;
+        bo.b=2;
+        bo.j="hi";
+        a[0]=bo;
+        bk[0]=bo;
+        System.out.println(bk[0].j);//NO ERROR
+         System.out.println(a[0].j);//ERROR
+        
+    }
+}
